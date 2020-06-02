@@ -7,7 +7,7 @@ This template is distributed free of charge for mosque websites in Indonesia and
 
 ### Installation
 
-Dillinger requires [Node.js](https://nodejs.org/) v10+ to run.
+For running this template requires [Node.js](https://nodejs.org/) v10+ to run.
 
 Install the dependencies and devDependencies and start the server.
 
