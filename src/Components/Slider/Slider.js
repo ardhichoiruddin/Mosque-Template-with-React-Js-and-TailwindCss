@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react';
 import Glide from "@glidejs/glide";
 
-import './glides.min.css';
-
 
 const Slider = ({ nameClass, sliderConfiguration, sliderBullets, children }) => {
 

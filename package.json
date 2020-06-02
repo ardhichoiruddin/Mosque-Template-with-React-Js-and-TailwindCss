@@ -1,5 +1,6 @@
 {
   "name": "free-template-mosque",
+  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -66,7 +67,7 @@
   },
   "scripts": {
     "start": "npm run build:css && node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "npm run build:css && node scripts/build.js",
     "test": "node scripts/test.js",
     "build:css": "postcss src/App.css -o ./src/tailwind.css"
   },
@@ -87,6 +88,8 @@
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.2.0",
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
     "glob-all": "^3.2.1",
     "mini-css-extract-plugin": "^0.9.0",
     "postcss": "^7.0.31",

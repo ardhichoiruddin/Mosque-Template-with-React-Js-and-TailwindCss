@@ -5,8 +5,6 @@ import Header from './Components/Layouts/Header';
 import Footer from './Components/Layouts/Footer';
 import LoadingAnimation from './Components/LoadingAnimation/LoadingAnimation';
 
-import './tailwind.css';
-
 const Home = lazy(() => import('./Components/Home'));
 const AgendaAfter = lazy(() => import('./Components/Agenda/AgendaAfter'));
 const AgendaBefore = lazy(() => import('./Components/Agenda/AgendaBefore'));

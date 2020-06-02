@@ -1,9 +1,13 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 
-function Footer() {
+import facebookIcon from '../../Assets/image/icon/icon-sosmed/facebook-icon.svg';
+import twitterIcon from '../../Assets/image/icon/icon-sosmed/twitter-icon.svg';
+import youtubeIcon from '../../Assets/image/icon/icon-sosmed/youtube-icon.svg';
+import instagramIcon from '../../Assets/image/icon/icon-sosmed/instagram-icon.svg';
 
-    
+
+function Footer() {
 
     return (
         <div className="container mx-auto px-4 lg:px-2 content-persec-2">
@@ -31,10 +35,10 @@ function Footer() {
                     <li className="font-bold text-lg text-red">Sosial Media</li>
                     <li className="mt-3">
                         <ul className="flex">
-                            <li><Link to="/"><img src="../dist/image/icon/icon-sosmed/facebook-icon.svg" alt=""/></Link></li>
-                            <li className="ml-4"><Link to="/"><img src="../dist/image/icon/icon-sosmed/twitter-icon.svg" alt=""/></Link></li>
-                            <li className="ml-4"><Link to="/"><img src="../dist/image/icon/icon-sosmed/youtube-icon.svg" alt=""/></Link></li>
-                            <li className="ml-4"><Link to="/"><img src="../dist/image/icon/icon-sosmed/instagram-icon.svg" alt=""/></Link></li>
+                            <li><Link to="/"><img src={facebookIcon} alt=""/></Link></li>
+                            <li className="ml-4"><Link to="/"><img src={twitterIcon} alt=""/></Link></li>
+                            <li className="ml-4"><Link to="/"><img src={youtubeIcon} alt=""/></Link></li>
+                            <li className="ml-4"><Link to="/"><img src={instagramIcon} alt=""/></Link></li>
                         </ul>
                     </li>
                 </ul>
