@@ -92,7 +92,7 @@
     "cssnano": "^4.1.10",
     "glob-all": "^3.2.1",
     "mini-css-extract-plugin": "^0.9.0",
-    "postcss": "^7.0.31",
+    "postcss": "^8.2.10",
     "postcss-cli": "^7.1.1",
     "purgecss-webpack-plugin": "^2.2.0"
   },
